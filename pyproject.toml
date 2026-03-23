@@ -44,7 +44,7 @@ dev = ["build", "twine"]
 
 [tool.setuptools.packages.find]
 where = ["."]
-patterns = ["*"]
+include = ["*"]
 
 [tool.setuptools.package-data]
 pulseboard = ["py.typed"]
