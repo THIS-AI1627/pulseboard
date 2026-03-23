@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pulseboard"
+version = "1.0.0"
+description = "A beautiful, real-time system monitor TUI written in pure Python with zero dependencies"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Nguyễn Quang Vinh", email = "vinhnguyen.dev@gmail.com"}
+]
+keywords = ["system-monitor", "tui", "terminal", "n curses", "real-time", "linux", "windows", "macos"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console :: Curses",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Monitoring",
+    "Topic :: Terminals",
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/THIS-AI1627/pulseboard"
+Documentation = "https://github.com/THIS-AI1627/pulseboard#readme"
+Repository = "https://github.com/THIS-AI1627/pulseboard"
+Issues = "https://github.com/THIS-AI1627/pulseboard/issues"
+Release = "https://github.com/THIS-AI1627/pulseboard/releases"
+Buy_Me_A_Coffee = "https://github.com/sponsors/THIS-AI1627"
+
+[project.optional-dependencies]
+dev = ["build", "twine"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+patterns = ["*"]
+
+[tool.setuptools.package-data]
+pulseboard = ["py.typed"]
