@@ -2,6 +2,8 @@
 
 > A real-time system monitor TUI with cyberpunk aesthetics. Zero dependencies — pure Python + curses.
 
+[![PyPI version](https://img.shields.io/pypi/v/pulseboard?style=flat-square&logo=pypi&logoColor=white&color=blue)](https://pypi.org/project/pulseboard/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/pulseboard?style=flat-square&color=blue)](https://pypi.org/project/pulseboard/)
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows%20(WSL)-cyan?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
@@ -87,15 +89,10 @@ No `pip install`. No external packages. Just Python.
 
 ---
 
-## 📦 Alternative Install Methods
+## 📦 Install via pip
 
 ```bash
-# Download directly
-curl -fsSL https://raw.githubusercontent.com/THIS-AI1627/pulseboard/main/pulseboard.py -o pulseboard.py
-python pulseboard.py
-
-# pip (coming soon)
-pip install pulseboard-tui
+pip install pulseboard
 ```
 
 ---
@@ -103,6 +100,14 @@ pip install pulseboard-tui
 ## 🤝 Contributing
 
 Contributions welcome! Open an issue or submit a PR.
+
+---
+
+## 💛 Support
+
+If PulseBoard is useful to you, consider buying me a coffee!
+
+[![Sponsor](https://img.shields.io/badge/GitHub%20Sponsors-Support-FF4D4D?style=flat-square&logo=github)](https://github.com/sponsors/THIS-AI1627)
 
 ---
 
